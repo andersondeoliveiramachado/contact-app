@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "npm run build-frontend && node ./server.js",
+    "build-frontend": "rm -rf public/* && cd frontend && npm run build && mv build/* ../public && cd .."
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",
