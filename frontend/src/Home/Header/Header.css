@@ -1,0 +1,49 @@
+.header {
+    width: 93%;
+    height: 78px;
+    background: linear-gradient(90.21deg, #053ED1 0%, #0F4EAC 100%);
+    padding: 0 4vw;
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+
+.ellipse1 {
+    position: absolute;
+    width: 210px;
+    height: 78px;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 215px;
+    height: 78px;
+    left: 80vw;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.user-info-container {
+    z-index: 1;
+    width: 40%;
+}
+
+.user-info {
+    margin-left: 16px;
+    color: white;
+}
+
+.user-display-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.user-email {
+    font-size: small;
+}
