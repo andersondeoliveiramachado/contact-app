@@ -3,7 +3,6 @@
     height: 78px;
     background: linear-gradient(90.21deg, #053ED1 0%, #0F4EAC 100%);
     padding: 0 4vw;
-
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -23,7 +22,7 @@
     position: absolute;
     width: 215px;
     height: 78px;
-    left: 80vw;
+    left: 87vw;
     right: 0;
     top: 0;
     z-index: 0;
