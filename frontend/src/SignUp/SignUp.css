@@ -1,0 +1,6 @@
+.container {
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+    margin: 24px;
+}
