@@ -56,7 +56,7 @@ function handleCallback(req, res) {
 
             // Store the credentials given by google into a jsonwebtoken in a cookie called 'jwt'
             res.cookie('jwt', jwt.sign(token, process.env.CONTACT_JWT_SECRET));
-            return res.redirect('/home');
+            return res.redirect('/');
         });
     }
 }

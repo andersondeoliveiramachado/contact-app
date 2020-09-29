@@ -23,7 +23,7 @@ app.use('/auth', authRouter);
 // Handles any requests that don't match the ones above and redirects them to
 // the frontend
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/public/index.html'));
+    res.sendFile(path.join(__dirname + '../frontend/build/index.html'));
 });
 
 module.exports = app;
