@@ -1,0 +1,72 @@
+.image1 {
+    position: absolute;
+    width: 653.5px;
+    height: 606px;
+    left: 0;
+    top: 4px;
+    z-index: -1;
+}
+
+.image2 {
+    position: absolute;
+    width: 387.1px;
+    height: 491.2px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 60.5px;
+    height: 34.96px;
+    left: 10.5px;
+    top: 537.54px;
+    z-index: -1;
+}
+
+
+.ellipse2 {
+    position: absolute;
+    width: 18px;
+    height: 13.39px;
+    left: 112.5px;
+    top: 182.5px;
+    z-index: -1;
+}
+
+.ellipse3 {
+    position: absolute;
+    width: 18.88px;
+    height: 32px;
+    left: 1231.12px;
+    top: 592px;
+    z-index: -1;
+}
+
+.ellipse4 {
+    position: absolute;
+    width: 11.21px;
+    height: 18px;
+    left: 1132px;
+    top: 502px;
+    z-index: -1;
+}
+
+.ellipse5 {
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    left: 1186.5px;
+    top: 222.5px;
+    z-index: -1;
+}
+
+.ellipse6 {
+    position: absolute;
+    width: 18.5px;
+    height: 21.35px;
+    left: 1244.5px;
+    top: 125.15px;
+    z-index: -1;
+}
