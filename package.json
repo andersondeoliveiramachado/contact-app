@@ -1,0 +1,17 @@
+{
+  "name": "contact-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run build-frontend && node ./server.js",
+    "build-frontend": "rm -rf public/* && cd frontend && npm run build && mv build/* ../public && cd .."
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "googleapis": "^39.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1"
+  }
+}
