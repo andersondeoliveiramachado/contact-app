@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box";
 import bin from "../../assets/bin.svg";
 import withStyles from "@material-ui/core/styles/withStyles";
 
-const useStyles = theme => ({
+const useStyles = () => ({
 
     root: {
         margin: '12px 0px',
@@ -47,7 +47,7 @@ class ContactCard extends React.Component {
                  className={classes.root}>
                 <Card className={classes.content}>
                     <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="center">
-                        <Box flex="1" flexDirection="row" justifyContent="start" alignItem="start">
+                        <Box flex="1" flexDirection="row" justifyContent="start" alignItems="start">
                             <ReactRoundedImage flex="1"
                                                image={this.props.contact.photos[0].url}
                                                roundedColor={this.getRandomColor()}
@@ -55,16 +55,16 @@ class ContactCard extends React.Component {
                                                imageHeight="45"
                                                roundedSize="5"/>
                         </Box>
-                        <Box flex="4" alignItem="start" className={classes.name}>
+                        <Box flex="4" alignItems="start" className={classes.name}>
                             {this.props.contact.names?.length ? this.props.contact.names[0].displayName : '--'}
                         </Box>
-                        <Box flex="4" alignItem="start">
+                        <Box flex="4" alignItems="start">
                             {this.props.contact.emailAddresses?.length ? this.props.contact.emailAddresses[0].value : '--'}
                         </Box>
-                        <Box flex="3" alignItem="start">
+                        <Box flex="3" alignItems="start">
                             {this.props.contact.phoneNumbers?.length ? this.props.contact.phoneNumbers[0].canonicalForm : '--'}
                         </Box>
-                        <Box flex="1" alignItem="end">{this.state.hover ? <img src={bin} alt="bin"/> : ''}</Box>
+                        <Box flex="1" alignItems="end">{this.state.hover ? <img src={bin} alt="bin"/> : ''}</Box>
                     </Box>
                 </Card>
             </Box>
@@ -72,4 +72,4 @@ class ContactCard extends React.Component {
     }
 }
 
-export default withStyles(useStyles, {withTheme: true})(ContactCard);
+export default withStyles(useStyles)(ContactCard);

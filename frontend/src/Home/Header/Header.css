@@ -47,3 +47,7 @@
 .user-email {
     font-size: small;
 }
+
+.logout-image {
+    z-index: 11;
+}
