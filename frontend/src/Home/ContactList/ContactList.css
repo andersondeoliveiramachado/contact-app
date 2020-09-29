@@ -1,0 +1,15 @@
+.gutter-spaces {
+    padding: 8vh 15vw 0 15vw;
+    max-height: calc(100% - 78px);
+}
+
+.contacts-count {
+    font-family: Poppins, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #053ED1;
+}
